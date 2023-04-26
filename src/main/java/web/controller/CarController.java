@@ -25,10 +25,4 @@ public class CarController {
 
         return "cars";
     }
-
-/*    @GetMapping("/{count}")
-    public String showCar(@PathVariable("count") int count, Model model) {
-        model.addAttribute("car", carService.getCar(count));
-        return "showCar";
-    }*/
 }
